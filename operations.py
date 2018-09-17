@@ -26,10 +26,10 @@ sym_dict['-'] = ()
 
 # DIVISION Operation Entry #################################
 def divide(a, b):
-    return 0
+    return a / b
 
 
-sym_dict['/'] = ()
+sym_dict['/'] = ('divide', 'Sir Swizzy')
 ############################################################
 
 
